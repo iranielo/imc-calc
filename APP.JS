@@ -17,6 +17,7 @@ const form = document.getElementById("imc-form");
                 return;
             }
 
+            
             const imc = peso / (altura * altura);
 
             if (!Number.isFinite(imc)) {
